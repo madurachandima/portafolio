@@ -48,7 +48,7 @@ export default function Home({ scrollToSection }) {
             <Button
               onClick={() => scrollToSection("contact")}
               variant="outline"
-              className="border-2 border-gray-700 text-gray-300 hover:bg-gray-900/50 hover:border-gray-600 px-8 py-4 text-lg font-medium rounded-xl transition-all duration-300"
+              className="border-2 border-gray-700 text-gray-300 hover:bg-gray-900/50 hover:border-gray-600 hover:text-gray-300  px-8 py-4 text-lg font-medium rounded-xl transition-all duration-300"
             >
               Get In Touch
             </Button>

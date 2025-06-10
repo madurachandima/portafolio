@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="py-20 bg-gradient-to-br from-gray-950 via-black to-gray-950"
+      className="min-h-[100vh] py-20 bg-gradient-to-br from-gray-950 via-black to-gray-950"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
@@ -23,19 +23,24 @@ export default function Contact() {
           <div className="flex flex-col sm:flex-row gap-8 justify-center items-center mb-12">
             <Button
               className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-4 text-lg font-medium rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
-              onClick={() => window.open("mailto:madura.chandima@email.com")}
+              onClick={() => {
+                window.location.href = "mailto:madurachandima6@gmail.com";
+              }}
             >
               <Mail size={20} className="mr-3" />
-              madura.chandima@email.com
+              madurachandima6@gmail.com
             </Button>
           </div>
           <div className="flex gap-6 justify-center">
             <Button
               variant="outline"
               size="lg"
-              className="border-2 border-gray-700 text-gray-300 hover:bg-gray-900/50 hover:border-gray-600 p-4 rounded-xl transition-all duration-300 hover:scale-110"
+              className="border-2 border-gray-700 hover:text-gray-300  text-gray-300 hover:bg-gray-900/50 hover:border-gray-600 p-4 rounded-xl transition-all duration-300 hover:scale-110"
               onClick={() =>
-                window.open("https://linkedin.com/in/madura-chandima", "_blank")
+                window.open(
+                  "https://www.linkedin.com/in/madura-dias-985a52194/",
+                  "_blank"
+                )
               }
             >
               <Linkedin size={28} />
@@ -43,9 +48,9 @@ export default function Contact() {
             <Button
               variant="outline"
               size="lg"
-              className="border-2 border-gray-700 text-gray-300 hover:bg-gray-900/50 hover:border-gray-600 p-4 rounded-xl transition-all duration-300 hover:scale-110"
+              className="border-2 border-gray-700 hover:text-gray-300 text-gray-300 hover:bg-gray-900/50 hover:border-gray-600 p-4 rounded-xl transition-all duration-300 hover:scale-110"
               onClick={() =>
-                window.open("https://github.com/madura-chandima", "_blank")
+                window.open("https://github.com/madurachandima", "_blank")
               }
             >
               <Github size={28} />
