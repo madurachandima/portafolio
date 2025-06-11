@@ -20,7 +20,7 @@ export default function Projects() {
       description:
         "A Flutter app for managing VPN connections with real-time analytics and a user-friendly interface. Implemented for both Android and iOS, the app includes a speed test feature and AdMob integration.",
       // image: "/vpn_lit.png?height=200&width=300",
-      image: "portafolio/vpn_lit.png",
+      image: "/portafolio/vpn_lit.png",
       technologies: ["Flutter", "REST API", "Admob"],
       github: null,
       demo: null,
@@ -40,7 +40,7 @@ export default function Projects() {
       title: "Connect2VPN App",
       description:
         "A Flutter app for managing VPN connections with real-time analytics and a user-friendly interface. Implemented for both Android and iOS.",
-      image: "portafolio/connect2vpn.png?height=200&width=300",
+      image: "/portafolio/connect2vpn.png?height=200&width=300",
       technologies: ["Flutter", "SOUP API"],
       github: null,
       demo: null,
@@ -61,7 +61,7 @@ export default function Projects() {
       title: "Champ Turf App",
       description:
         "Champ Turf is a Flutter-based mobile application designed to streamline the booking process for indoor cricket grounds while offering a variety of additional services. Users can create and manage personal profiles, view booking history, and customize their preferences. The app enables users to explore available time slots and specific zones within the facility, making it easy to reserve spaces for games. Secure online payment integration ensures a smooth and instant booking experience. In addition to ground reservations, the app also offers access to a range of training classes—not limited to cricket—catering to users interested in various sports and fitness programs. To enhance user experience, bookings can include optional add-ons such as refreshments and other services. With a modern user interface and responsive design, Champ Turf provides a comprehensive, user-friendly solution for managing indoor sports activities.",
-      image: "portafolio/champ_turf.png?height=200&width=300",
+      image: "/portafolio/champ_turf.png?height=200&width=300",
       technologies: ["Flutter", "REST API", "Firebase Crashlytics","Google Analytics", "Payment Gateway"],
       github: null,
       demo: null,
