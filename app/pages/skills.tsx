@@ -48,7 +48,7 @@ export default function Skills() {
     },
     {
       name: "Java",
-      icon: "/java.svg",
+      icon: "/portafolio/java.svg",
       color: "from-cyan-600 to-cyan-800",
       isSvg: true,
     },
