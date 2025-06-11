@@ -14,7 +14,7 @@ export default function About() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-2xl blur-xl"></div>
               <Image
-                src="/profile_image.jpeg?height=500&width=500"
+                src="portafolio/profile_image.jpeg?height=500&width=500"
                 alt="Madura Dias"
                 width={500}
                 height={500}

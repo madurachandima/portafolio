@@ -15,7 +15,7 @@ export default function Home({ scrollToSection }) {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full animate-pulse"></div>
               <div className="absolute inset-1 bg-black rounded-full flex items-center justify-center">
                 <Image
-                  src="/profile_image.jpeg?height=150&width=150"
+                  src="portafolio/profile_image.jpeg?height=150&width=150"
                   alt="Madura Dias"
                   width={150}
                   height={150}
